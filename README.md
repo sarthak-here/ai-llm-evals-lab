@@ -1,21 +1,25 @@
 # ai-llm-evals-lab
 
-Lightweight evaluation starter for prompt/model experiments with reproducible local runs.
+A lightweight lab for running reproducible LLM evals locally.
 
-## What it does
-- Computes **exact-match** score over evaluation cases
-- Supports file-based runs via CLI
-- Includes sample dataset + outputs
-- Includes CI + tests
+## Features
+- Exact-match scoring (`0.0` to `1.0`)
+- Simple CLI runner
+- Small sample dataset (3 cases)
+- Large sample dataset (1000 cases)
+- Pytest test suite
+- GitHub Actions CI
 
-## Project structure
-- `eval_runner.py` — core eval logic + CLI
-- `rubrics.py` — qualitative rubric prompts
-- `datasets/sample_cases.jsonl` — sample eval cases
-- `datasets/sample_outputs.txt` — sample model outputs
+## Repository structure
+- `eval_runner.py` — eval engine + CLI
+- `rubrics.py` — qualitative rubric references
+- `datasets/sample_cases.jsonl` — 3 demo cases
+- `datasets/sample_outputs.txt` — outputs for 3 demo cases
+- `datasets/sample_cases_1000.jsonl` — 1000 sample cases
+- `datasets/sample_outputs_1000.txt` — outputs for 1000 sample cases
 - `tests/test_eval_runner.py` — unit tests
 
-## Setup
+## Quickstart
 ```bash
 python -m venv .venv
 # Windows
@@ -28,15 +32,20 @@ pip install -r requirements.txt
 
 ## Run tests
 ```bash
-pytest -q
+python -m pytest -q
 ```
 
-## Run sample eval
+## CLI usage
+```bash
+python eval_runner.py --cases <path-to-cases.jsonl> --outputs <path-to-outputs.txt> [--pretty]
+```
+
+## Example: 3-case run
 ```bash
 python eval_runner.py --cases datasets/sample_cases.jsonl --outputs datasets/sample_outputs.txt --pretty
 ```
 
-Expected output:
+Expected:
 ```json
 {
   "cases": 3,
@@ -44,21 +53,34 @@ Expected output:
 }
 ```
 
-## Run 1000-case eval
+## Example: 1000-case run
 ```bash
 python eval_runner.py --cases datasets/sample_cases_1000.jsonl --outputs datasets/sample_outputs_1000.txt --pretty
 ```
 
+Expected:
+```json
+{
+  "cases": 1000,
+  "exact_match": 0.925
+}
+```
+
 ## Data format
-### Cases (`.jsonl`)
-One JSON object per line with:
+### Cases file (`.jsonl`)
+One JSON object per line:
 - `prompt` (string)
 - `expected` (string)
 
-Example line:
+Example:
 ```json
 {"prompt":"Capital of France?","expected":"Paris"}
 ```
 
-### Outputs (`.txt`)
-One model output per line, same order as cases.
+### Outputs file (`.txt`)
+- One model output per line
+- Order must match the cases file
+
+## Notes
+- `run_eval` raises `ValueError` if case/output lengths mismatch.
+- Exact match is whitespace-trimmed and case-sensitive.
