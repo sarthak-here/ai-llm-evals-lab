@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from typing import List
 
 
 @dataclass
@@ -11,7 +12,7 @@ def exact_match_score(pred: str, expected: str) -> float:
     return 1.0 if pred.strip() == expected.strip() else 0.0
 
 
-def run_eval(cases: list[EvalCase], model_outputs: list[str]) -> dict:
+def run_eval(cases: List[EvalCase], model_outputs: List[str]) -> dict:
     if len(cases) != len(model_outputs):
         raise ValueError("cases and outputs length mismatch")
 
