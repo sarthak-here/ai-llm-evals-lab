@@ -44,6 +44,11 @@ Expected output:
 }
 ```
 
+## Run 1000-case eval
+```bash
+python eval_runner.py --cases datasets/sample_cases_1000.jsonl --outputs datasets/sample_outputs_1000.txt --pretty
+```
+
 ## Data format
 ### Cases (`.jsonl`)
 One JSON object per line with:

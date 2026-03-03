@@ -1,0 +1,1000 @@
+{"prompt": "What is 1+4?", "expected": "5"}
+{"prompt": "What is 2+5?", "expected": "7"}
+{"prompt": "What is 3+6?", "expected": "9"}
+{"prompt": "What is 4+7?", "expected": "11"}
+{"prompt": "What is 5+8?", "expected": "13"}
+{"prompt": "What is 6+9?", "expected": "15"}
+{"prompt": "What is 7+10?", "expected": "17"}
+{"prompt": "What is 8+11?", "expected": "19"}
+{"prompt": "What is 9+12?", "expected": "21"}
+{"prompt": "What is 10+13?", "expected": "23"}
+{"prompt": "What is 11+14?", "expected": "25"}
+{"prompt": "What is 12+15?", "expected": "27"}
+{"prompt": "What is 13+16?", "expected": "29"}
+{"prompt": "What is 14+17?", "expected": "31"}
+{"prompt": "What is 15+18?", "expected": "33"}
+{"prompt": "What is 16+19?", "expected": "35"}
+{"prompt": "What is 17+20?", "expected": "37"}
+{"prompt": "What is 18+21?", "expected": "39"}
+{"prompt": "What is 19+22?", "expected": "41"}
+{"prompt": "What is 20+23?", "expected": "43"}
+{"prompt": "What is 21+24?", "expected": "45"}
+{"prompt": "What is 22+25?", "expected": "47"}
+{"prompt": "What is 23+26?", "expected": "49"}
+{"prompt": "What is 24+27?", "expected": "51"}
+{"prompt": "What is 25+28?", "expected": "53"}
+{"prompt": "What is 26+29?", "expected": "55"}
+{"prompt": "What is 27+30?", "expected": "57"}
+{"prompt": "What is 28+31?", "expected": "59"}
+{"prompt": "What is 29+32?", "expected": "61"}
+{"prompt": "What is 30+33?", "expected": "63"}
+{"prompt": "What is 31+34?", "expected": "65"}
+{"prompt": "What is 32+35?", "expected": "67"}
+{"prompt": "What is 33+36?", "expected": "69"}
+{"prompt": "What is 34+37?", "expected": "71"}
+{"prompt": "What is 35+38?", "expected": "73"}
+{"prompt": "What is 36+39?", "expected": "75"}
+{"prompt": "What is 37+40?", "expected": "77"}
+{"prompt": "What is 38+41?", "expected": "79"}
+{"prompt": "What is 39+42?", "expected": "81"}
+{"prompt": "What is 40+43?", "expected": "83"}
+{"prompt": "What is 41+44?", "expected": "85"}
+{"prompt": "What is 42+45?", "expected": "87"}
+{"prompt": "What is 43+46?", "expected": "89"}
+{"prompt": "What is 44+47?", "expected": "91"}
+{"prompt": "What is 45+48?", "expected": "93"}
+{"prompt": "What is 46+49?", "expected": "95"}
+{"prompt": "What is 47+50?", "expected": "97"}
+{"prompt": "What is 48+51?", "expected": "99"}
+{"prompt": "What is 49+52?", "expected": "101"}
+{"prompt": "What is 50+53?", "expected": "103"}
+{"prompt": "What is 51+54?", "expected": "105"}
+{"prompt": "What is 52+55?", "expected": "107"}
+{"prompt": "What is 53+56?", "expected": "109"}
+{"prompt": "What is 54+57?", "expected": "111"}
+{"prompt": "What is 55+58?", "expected": "113"}
+{"prompt": "What is 56+59?", "expected": "115"}
+{"prompt": "What is 57+60?", "expected": "117"}
+{"prompt": "What is 58+61?", "expected": "119"}
+{"prompt": "What is 59+62?", "expected": "121"}
+{"prompt": "What is 60+63?", "expected": "123"}
+{"prompt": "What is 61+64?", "expected": "125"}
+{"prompt": "What is 62+65?", "expected": "127"}
+{"prompt": "What is 63+66?", "expected": "129"}
+{"prompt": "What is 64+67?", "expected": "131"}
+{"prompt": "What is 65+68?", "expected": "133"}
+{"prompt": "What is 66+69?", "expected": "135"}
+{"prompt": "What is 67+70?", "expected": "137"}
+{"prompt": "What is 68+71?", "expected": "139"}
+{"prompt": "What is 69+72?", "expected": "141"}
+{"prompt": "What is 70+73?", "expected": "143"}
+{"prompt": "What is 71+74?", "expected": "145"}
+{"prompt": "What is 72+75?", "expected": "147"}
+{"prompt": "What is 73+76?", "expected": "149"}
+{"prompt": "What is 74+77?", "expected": "151"}
+{"prompt": "What is 75+78?", "expected": "153"}
+{"prompt": "What is 76+79?", "expected": "155"}
+{"prompt": "What is 77+80?", "expected": "157"}
+{"prompt": "What is 78+81?", "expected": "159"}
+{"prompt": "What is 79+82?", "expected": "161"}
+{"prompt": "What is 80+83?", "expected": "163"}
+{"prompt": "What is 81+84?", "expected": "165"}
+{"prompt": "What is 82+85?", "expected": "167"}
+{"prompt": "What is 83+86?", "expected": "169"}
+{"prompt": "What is 84+87?", "expected": "171"}
+{"prompt": "What is 85+88?", "expected": "173"}
+{"prompt": "What is 86+89?", "expected": "175"}
+{"prompt": "What is 87+90?", "expected": "177"}
+{"prompt": "What is 88+91?", "expected": "179"}
+{"prompt": "What is 89+92?", "expected": "181"}
+{"prompt": "What is 90+93?", "expected": "183"}
+{"prompt": "What is 91+94?", "expected": "185"}
+{"prompt": "What is 92+95?", "expected": "187"}
+{"prompt": "What is 93+96?", "expected": "189"}
+{"prompt": "What is 94+97?", "expected": "191"}
+{"prompt": "What is 95+98?", "expected": "193"}
+{"prompt": "What is 96+99?", "expected": "195"}
+{"prompt": "What is 97+100?", "expected": "197"}
+{"prompt": "What is 98+101?", "expected": "199"}
+{"prompt": "What is 99+102?", "expected": "201"}
+{"prompt": "What is 100+103?", "expected": "203"}
+{"prompt": "What is 101+104?", "expected": "205"}
+{"prompt": "What is 102+105?", "expected": "207"}
+{"prompt": "What is 103+106?", "expected": "209"}
+{"prompt": "What is 104+107?", "expected": "211"}
+{"prompt": "What is 105+108?", "expected": "213"}
+{"prompt": "What is 106+109?", "expected": "215"}
+{"prompt": "What is 107+110?", "expected": "217"}
+{"prompt": "What is 108+111?", "expected": "219"}
+{"prompt": "What is 109+112?", "expected": "221"}
+{"prompt": "What is 110+113?", "expected": "223"}
+{"prompt": "What is 111+114?", "expected": "225"}
+{"prompt": "What is 112+115?", "expected": "227"}
+{"prompt": "What is 113+116?", "expected": "229"}
+{"prompt": "What is 114+117?", "expected": "231"}
+{"prompt": "What is 115+118?", "expected": "233"}
+{"prompt": "What is 116+119?", "expected": "235"}
+{"prompt": "What is 117+120?", "expected": "237"}
+{"prompt": "What is 118+121?", "expected": "239"}
+{"prompt": "What is 119+122?", "expected": "241"}
+{"prompt": "What is 120+123?", "expected": "243"}
+{"prompt": "What is 121+124?", "expected": "245"}
+{"prompt": "What is 122+125?", "expected": "247"}
+{"prompt": "What is 123+126?", "expected": "249"}
+{"prompt": "What is 124+127?", "expected": "251"}
+{"prompt": "What is 125+128?", "expected": "253"}
+{"prompt": "What is 126+129?", "expected": "255"}
+{"prompt": "What is 127+130?", "expected": "257"}
+{"prompt": "What is 128+131?", "expected": "259"}
+{"prompt": "What is 129+132?", "expected": "261"}
+{"prompt": "What is 130+133?", "expected": "263"}
+{"prompt": "What is 131+134?", "expected": "265"}
+{"prompt": "What is 132+135?", "expected": "267"}
+{"prompt": "What is 133+136?", "expected": "269"}
+{"prompt": "What is 134+137?", "expected": "271"}
+{"prompt": "What is 135+138?", "expected": "273"}
+{"prompt": "What is 136+139?", "expected": "275"}
+{"prompt": "What is 137+140?", "expected": "277"}
+{"prompt": "What is 138+141?", "expected": "279"}
+{"prompt": "What is 139+142?", "expected": "281"}
+{"prompt": "What is 140+143?", "expected": "283"}
+{"prompt": "What is 141+144?", "expected": "285"}
+{"prompt": "What is 142+145?", "expected": "287"}
+{"prompt": "What is 143+146?", "expected": "289"}
+{"prompt": "What is 144+147?", "expected": "291"}
+{"prompt": "What is 145+148?", "expected": "293"}
+{"prompt": "What is 146+149?", "expected": "295"}
+{"prompt": "What is 147+150?", "expected": "297"}
+{"prompt": "What is 148+151?", "expected": "299"}
+{"prompt": "What is 149+152?", "expected": "301"}
+{"prompt": "What is 150+153?", "expected": "303"}
+{"prompt": "What is 151+154?", "expected": "305"}
+{"prompt": "What is 152+155?", "expected": "307"}
+{"prompt": "What is 153+156?", "expected": "309"}
+{"prompt": "What is 154+157?", "expected": "311"}
+{"prompt": "What is 155+158?", "expected": "313"}
+{"prompt": "What is 156+159?", "expected": "315"}
+{"prompt": "What is 157+160?", "expected": "317"}
+{"prompt": "What is 158+161?", "expected": "319"}
+{"prompt": "What is 159+162?", "expected": "321"}
+{"prompt": "What is 160+163?", "expected": "323"}
+{"prompt": "What is 161+164?", "expected": "325"}
+{"prompt": "What is 162+165?", "expected": "327"}
+{"prompt": "What is 163+166?", "expected": "329"}
+{"prompt": "What is 164+167?", "expected": "331"}
+{"prompt": "What is 165+168?", "expected": "333"}
+{"prompt": "What is 166+169?", "expected": "335"}
+{"prompt": "What is 167+170?", "expected": "337"}
+{"prompt": "What is 168+171?", "expected": "339"}
+{"prompt": "What is 169+172?", "expected": "341"}
+{"prompt": "What is 170+173?", "expected": "343"}
+{"prompt": "What is 171+174?", "expected": "345"}
+{"prompt": "What is 172+175?", "expected": "347"}
+{"prompt": "What is 173+176?", "expected": "349"}
+{"prompt": "What is 174+177?", "expected": "351"}
+{"prompt": "What is 175+178?", "expected": "353"}
+{"prompt": "What is 176+179?", "expected": "355"}
+{"prompt": "What is 177+180?", "expected": "357"}
+{"prompt": "What is 178+181?", "expected": "359"}
+{"prompt": "What is 179+182?", "expected": "361"}
+{"prompt": "What is 180+183?", "expected": "363"}
+{"prompt": "What is 181+184?", "expected": "365"}
+{"prompt": "What is 182+185?", "expected": "367"}
+{"prompt": "What is 183+186?", "expected": "369"}
+{"prompt": "What is 184+187?", "expected": "371"}
+{"prompt": "What is 185+188?", "expected": "373"}
+{"prompt": "What is 186+189?", "expected": "375"}
+{"prompt": "What is 187+190?", "expected": "377"}
+{"prompt": "What is 188+191?", "expected": "379"}
+{"prompt": "What is 189+192?", "expected": "381"}
+{"prompt": "What is 190+193?", "expected": "383"}
+{"prompt": "What is 191+194?", "expected": "385"}
+{"prompt": "What is 192+195?", "expected": "387"}
+{"prompt": "What is 193+196?", "expected": "389"}
+{"prompt": "What is 194+197?", "expected": "391"}
+{"prompt": "What is 195+198?", "expected": "393"}
+{"prompt": "What is 196+199?", "expected": "395"}
+{"prompt": "What is 197+200?", "expected": "397"}
+{"prompt": "What is 198+201?", "expected": "399"}
+{"prompt": "What is 199+202?", "expected": "401"}
+{"prompt": "What is 200+203?", "expected": "403"}
+{"prompt": "What is 201+204?", "expected": "405"}
+{"prompt": "What is 202+205?", "expected": "407"}
+{"prompt": "What is 203+206?", "expected": "409"}
+{"prompt": "What is 204+207?", "expected": "411"}
+{"prompt": "What is 205+208?", "expected": "413"}
+{"prompt": "What is 206+209?", "expected": "415"}
+{"prompt": "What is 207+210?", "expected": "417"}
+{"prompt": "What is 208+211?", "expected": "419"}
+{"prompt": "What is 209+212?", "expected": "421"}
+{"prompt": "What is 210+213?", "expected": "423"}
+{"prompt": "What is 211+214?", "expected": "425"}
+{"prompt": "What is 212+215?", "expected": "427"}
+{"prompt": "What is 213+216?", "expected": "429"}
+{"prompt": "What is 214+217?", "expected": "431"}
+{"prompt": "What is 215+218?", "expected": "433"}
+{"prompt": "What is 216+219?", "expected": "435"}
+{"prompt": "What is 217+220?", "expected": "437"}
+{"prompt": "What is 218+221?", "expected": "439"}
+{"prompt": "What is 219+222?", "expected": "441"}
+{"prompt": "What is 220+223?", "expected": "443"}
+{"prompt": "What is 221+224?", "expected": "445"}
+{"prompt": "What is 222+225?", "expected": "447"}
+{"prompt": "What is 223+226?", "expected": "449"}
+{"prompt": "What is 224+227?", "expected": "451"}
+{"prompt": "What is 225+228?", "expected": "453"}
+{"prompt": "What is 226+229?", "expected": "455"}
+{"prompt": "What is 227+230?", "expected": "457"}
+{"prompt": "What is 228+231?", "expected": "459"}
+{"prompt": "What is 229+232?", "expected": "461"}
+{"prompt": "What is 230+233?", "expected": "463"}
+{"prompt": "What is 231+234?", "expected": "465"}
+{"prompt": "What is 232+235?", "expected": "467"}
+{"prompt": "What is 233+236?", "expected": "469"}
+{"prompt": "What is 234+237?", "expected": "471"}
+{"prompt": "What is 235+238?", "expected": "473"}
+{"prompt": "What is 236+239?", "expected": "475"}
+{"prompt": "What is 237+240?", "expected": "477"}
+{"prompt": "What is 238+241?", "expected": "479"}
+{"prompt": "What is 239+242?", "expected": "481"}
+{"prompt": "What is 240+243?", "expected": "483"}
+{"prompt": "What is 241+244?", "expected": "485"}
+{"prompt": "What is 242+245?", "expected": "487"}
+{"prompt": "What is 243+246?", "expected": "489"}
+{"prompt": "What is 244+247?", "expected": "491"}
+{"prompt": "What is 245+248?", "expected": "493"}
+{"prompt": "What is 246+249?", "expected": "495"}
+{"prompt": "What is 247+250?", "expected": "497"}
+{"prompt": "What is 248+251?", "expected": "499"}
+{"prompt": "What is 249+252?", "expected": "501"}
+{"prompt": "What is 250+253?", "expected": "503"}
+{"prompt": "What is 251+254?", "expected": "505"}
+{"prompt": "What is 252+255?", "expected": "507"}
+{"prompt": "What is 253+256?", "expected": "509"}
+{"prompt": "What is 254+257?", "expected": "511"}
+{"prompt": "What is 255+258?", "expected": "513"}
+{"prompt": "What is 256+259?", "expected": "515"}
+{"prompt": "What is 257+260?", "expected": "517"}
+{"prompt": "What is 258+261?", "expected": "519"}
+{"prompt": "What is 259+262?", "expected": "521"}
+{"prompt": "What is 260+263?", "expected": "523"}
+{"prompt": "What is 261+264?", "expected": "525"}
+{"prompt": "What is 262+265?", "expected": "527"}
+{"prompt": "What is 263+266?", "expected": "529"}
+{"prompt": "What is 264+267?", "expected": "531"}
+{"prompt": "What is 265+268?", "expected": "533"}
+{"prompt": "What is 266+269?", "expected": "535"}
+{"prompt": "What is 267+270?", "expected": "537"}
+{"prompt": "What is 268+271?", "expected": "539"}
+{"prompt": "What is 269+272?", "expected": "541"}
+{"prompt": "What is 270+273?", "expected": "543"}
+{"prompt": "What is 271+274?", "expected": "545"}
+{"prompt": "What is 272+275?", "expected": "547"}
+{"prompt": "What is 273+276?", "expected": "549"}
+{"prompt": "What is 274+277?", "expected": "551"}
+{"prompt": "What is 275+278?", "expected": "553"}
+{"prompt": "What is 276+279?", "expected": "555"}
+{"prompt": "What is 277+280?", "expected": "557"}
+{"prompt": "What is 278+281?", "expected": "559"}
+{"prompt": "What is 279+282?", "expected": "561"}
+{"prompt": "What is 280+283?", "expected": "563"}
+{"prompt": "What is 281+284?", "expected": "565"}
+{"prompt": "What is 282+285?", "expected": "567"}
+{"prompt": "What is 283+286?", "expected": "569"}
+{"prompt": "What is 284+287?", "expected": "571"}
+{"prompt": "What is 285+288?", "expected": "573"}
+{"prompt": "What is 286+289?", "expected": "575"}
+{"prompt": "What is 287+290?", "expected": "577"}
+{"prompt": "What is 288+291?", "expected": "579"}
+{"prompt": "What is 289+292?", "expected": "581"}
+{"prompt": "What is 290+293?", "expected": "583"}
+{"prompt": "What is 291+294?", "expected": "585"}
+{"prompt": "What is 292+295?", "expected": "587"}
+{"prompt": "What is 293+296?", "expected": "589"}
+{"prompt": "What is 294+297?", "expected": "591"}
+{"prompt": "What is 295+298?", "expected": "593"}
+{"prompt": "What is 296+299?", "expected": "595"}
+{"prompt": "What is 297+300?", "expected": "597"}
+{"prompt": "What is 298+301?", "expected": "599"}
+{"prompt": "What is 299+302?", "expected": "601"}
+{"prompt": "What is 300+303?", "expected": "603"}
+{"prompt": "What is 301+304?", "expected": "605"}
+{"prompt": "What is 302+305?", "expected": "607"}
+{"prompt": "What is 303+306?", "expected": "609"}
+{"prompt": "What is 304+307?", "expected": "611"}
+{"prompt": "What is 305+308?", "expected": "613"}
+{"prompt": "What is 306+309?", "expected": "615"}
+{"prompt": "What is 307+310?", "expected": "617"}
+{"prompt": "What is 308+311?", "expected": "619"}
+{"prompt": "What is 309+312?", "expected": "621"}
+{"prompt": "What is 310+313?", "expected": "623"}
+{"prompt": "What is 311+314?", "expected": "625"}
+{"prompt": "What is 312+315?", "expected": "627"}
+{"prompt": "What is 313+316?", "expected": "629"}
+{"prompt": "What is 314+317?", "expected": "631"}
+{"prompt": "What is 315+318?", "expected": "633"}
+{"prompt": "What is 316+319?", "expected": "635"}
+{"prompt": "What is 317+320?", "expected": "637"}
+{"prompt": "What is 318+321?", "expected": "639"}
+{"prompt": "What is 319+322?", "expected": "641"}
+{"prompt": "What is 320+323?", "expected": "643"}
+{"prompt": "What is 321+324?", "expected": "645"}
+{"prompt": "What is 322+325?", "expected": "647"}
+{"prompt": "What is 323+326?", "expected": "649"}
+{"prompt": "What is 324+327?", "expected": "651"}
+{"prompt": "What is 325+328?", "expected": "653"}
+{"prompt": "What is 326+329?", "expected": "655"}
+{"prompt": "What is 327+330?", "expected": "657"}
+{"prompt": "What is 328+331?", "expected": "659"}
+{"prompt": "What is 329+332?", "expected": "661"}
+{"prompt": "What is 330+333?", "expected": "663"}
+{"prompt": "What is 331+334?", "expected": "665"}
+{"prompt": "What is 332+335?", "expected": "667"}
+{"prompt": "What is 333+336?", "expected": "669"}
+{"prompt": "What is 334+337?", "expected": "671"}
+{"prompt": "What is 335+338?", "expected": "673"}
+{"prompt": "What is 336+339?", "expected": "675"}
+{"prompt": "What is 337+340?", "expected": "677"}
+{"prompt": "What is 338+341?", "expected": "679"}
+{"prompt": "What is 339+342?", "expected": "681"}
+{"prompt": "What is 340+343?", "expected": "683"}
+{"prompt": "What is 341+344?", "expected": "685"}
+{"prompt": "What is 342+345?", "expected": "687"}
+{"prompt": "What is 343+346?", "expected": "689"}
+{"prompt": "What is 344+347?", "expected": "691"}
+{"prompt": "What is 345+348?", "expected": "693"}
+{"prompt": "What is 346+349?", "expected": "695"}
+{"prompt": "What is 347+350?", "expected": "697"}
+{"prompt": "What is 348+351?", "expected": "699"}
+{"prompt": "What is 349+352?", "expected": "701"}
+{"prompt": "What is 350+353?", "expected": "703"}
+{"prompt": "What is 351+354?", "expected": "705"}
+{"prompt": "What is 352+355?", "expected": "707"}
+{"prompt": "What is 353+356?", "expected": "709"}
+{"prompt": "What is 354+357?", "expected": "711"}
+{"prompt": "What is 355+358?", "expected": "713"}
+{"prompt": "What is 356+359?", "expected": "715"}
+{"prompt": "What is 357+360?", "expected": "717"}
+{"prompt": "What is 358+361?", "expected": "719"}
+{"prompt": "What is 359+362?", "expected": "721"}
+{"prompt": "What is 360+363?", "expected": "723"}
+{"prompt": "What is 361+364?", "expected": "725"}
+{"prompt": "What is 362+365?", "expected": "727"}
+{"prompt": "What is 363+366?", "expected": "729"}
+{"prompt": "What is 364+367?", "expected": "731"}
+{"prompt": "What is 365+368?", "expected": "733"}
+{"prompt": "What is 366+369?", "expected": "735"}
+{"prompt": "What is 367+370?", "expected": "737"}
+{"prompt": "What is 368+371?", "expected": "739"}
+{"prompt": "What is 369+372?", "expected": "741"}
+{"prompt": "What is 370+373?", "expected": "743"}
+{"prompt": "What is 371+374?", "expected": "745"}
+{"prompt": "What is 372+375?", "expected": "747"}
+{"prompt": "What is 373+376?", "expected": "749"}
+{"prompt": "What is 374+377?", "expected": "751"}
+{"prompt": "What is 375+378?", "expected": "753"}
+{"prompt": "What is 376+379?", "expected": "755"}
+{"prompt": "What is 377+380?", "expected": "757"}
+{"prompt": "What is 378+381?", "expected": "759"}
+{"prompt": "What is 379+382?", "expected": "761"}
+{"prompt": "What is 380+383?", "expected": "763"}
+{"prompt": "What is 381+384?", "expected": "765"}
+{"prompt": "What is 382+385?", "expected": "767"}
+{"prompt": "What is 383+386?", "expected": "769"}
+{"prompt": "What is 384+387?", "expected": "771"}
+{"prompt": "What is 385+388?", "expected": "773"}
+{"prompt": "What is 386+389?", "expected": "775"}
+{"prompt": "What is 387+390?", "expected": "777"}
+{"prompt": "What is 388+391?", "expected": "779"}
+{"prompt": "What is 389+392?", "expected": "781"}
+{"prompt": "What is 390+393?", "expected": "783"}
+{"prompt": "What is 391+394?", "expected": "785"}
+{"prompt": "What is 392+395?", "expected": "787"}
+{"prompt": "What is 393+396?", "expected": "789"}
+{"prompt": "What is 394+397?", "expected": "791"}
+{"prompt": "What is 395+398?", "expected": "793"}
+{"prompt": "What is 396+399?", "expected": "795"}
+{"prompt": "What is 397+400?", "expected": "797"}
+{"prompt": "What is 398+401?", "expected": "799"}
+{"prompt": "What is 399+402?", "expected": "801"}
+{"prompt": "What is 400+403?", "expected": "803"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Capital of France?", "expected": "Paris"}
+{"prompt": "Capital of India?", "expected": "New Delhi"}
+{"prompt": "Capital of Japan?", "expected": "Tokyo"}
+{"prompt": "Capital of Canada?", "expected": "Ottawa"}
+{"prompt": "Capital of Brazil?", "expected": "Brasilia"}
+{"prompt": "Capital of Australia?", "expected": "Canberra"}
+{"prompt": "Capital of Germany?", "expected": "Berlin"}
+{"prompt": "Capital of Italy?", "expected": "Rome"}
+{"prompt": "Capital of Spain?", "expected": "Madrid"}
+{"prompt": "Capital of Portugal?", "expected": "Lisbon"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
+{"prompt": "Reply with the word 'blue' only.", "expected": "blue"}
+{"prompt": "Reply with the word 'green' only.", "expected": "green"}
+{"prompt": "Reply with the word 'red' only.", "expected": "red"}
+{"prompt": "Reply with the word 'yellow' only.", "expected": "yellow"}
+{"prompt": "Reply with the word 'purple' only.", "expected": "purple"}
