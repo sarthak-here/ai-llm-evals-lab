@@ -1,7 +1,9 @@
-# AI LLM Evals Lab — System Design
+# AI LLM Evals Lab - System Design
 
 ## What It Does
-A structured evaluation framework for Large Language Models. Given a dataset of test cases and a set of rubrics, it runs models against the cases, scores the outputs using automated rubric checkers and an LLM-as-judge, and produces a detailed evaluation report with pass/fail rates and failure analysis.
+A structured evaluation framework for Large Language Models. Given a JSONL dataset of
+test cases and a rubrics module, it runs models against the cases, scores outputs using
+automated rubric checkers and an LLM-as-judge, and produces a detailed evaluation report.
 
 ---
 
@@ -9,49 +11,48 @@ A structured evaluation framework for Large Language Models. Given a dataset of 
 
 ```
 Input
-  datasets/sample_cases.jsonl    (test cases)
-  rubrics.py                     (scoring criteria)
+  datasets/sample_cases.jsonl   (test cases)
+  rubrics.py                    (scoring criteria)
         |
         v
 +--------------------------------------------------+
 |            eval_runner.py                        |
-|  - Load test cases from JSONL                    |
+|  - Load test cases (JSONL, streaming)            |
 |  - For each case:                                |
 |    1. Build prompt from case template            |
-|    2. Call LLM (configurable model)              |
-|    3. Get raw output                             |
-|    4. Score against rubrics                      |
-|  - Aggregate: pass rate, avg score, failures     |
-|  - Write: results report                         |
+|    2. Call LLM (configurable: OpenAI / Anthropic)|
+|    3. Capture output + latency + token count     |
+|    4. Score against rubrics.py                   |
+|  - Aggregate: pass_rate, avg_score, failures     |
+|  - Write evaluation report                       |
 +--------------------------------------------------+
         |
         v
 +--------------------------------------------------+
 |            rubrics.py                            |
 |  Scoring dimensions:                             |
-|  - Correctness  (exact match or fuzzy)           |
-|  - Format       (JSON valid, length constraints) |
-|  - Faithfulness (answer grounded in context)     |
-|  - Safety       (no harmful content)             |
-|  - LLM-as-judge (GPT grades open-ended answers)  |
+|  - exact_match   (string equality)               |
+|  - fuzzy_match   (token overlap ratio)           |
+|  - json_valid    (output parses as JSON)         |
+|  - length_check  (within [min, max] chars)       |
+|  - llm_as_judge  (GPT scores open-ended answers) |
+|  - safety        (no harmful content patterns)   |
 +--------------------------------------------------+
         |
         v
-  Evaluation report:
-    Per-case: input, output, scores, pass/fail
-    Aggregate: accuracy, rubric breakdown, failures
+  Console summary table
+  datasets/sample_outputs.txt  (raw LLM outputs)
+  Full per-case report (input, output, scores)
 ```
 
 ---
 
 ## Input Format
 
-```jsonl
-// datasets/sample_cases.jsonl
-{"id": "001", "input": "Summarize this article: ...",
- "expected": "...", "rubrics": ["correctness", "length"]}
-{"id": "002", "input": "Translate to French: Hello",
- "expected": "Bonjour", "rubrics": ["exact_match"]}
+```
+// datasets/sample_cases.jsonl  (one JSON object per line)
+{"id":"001","input":"Summarize: ...","expected":"...","rubrics":["correctness","length"]}
+{"id":"002","input":"Translate to French: Hello","expected":"Bonjour","rubrics":["exact_match"]}
 ```
 
 ---
@@ -61,47 +62,52 @@ Input
 ```
 sample_cases.jsonl
         |
-  eval_runner.py loads cases (json.loads per line)
+  eval_runner.py loads line by line (streaming, memory-efficient)
         |
   For each test case:
     Build prompt from case["input"]
-    Call LLM API (OpenAI / Anthropic / local)
-    Capture: raw_output, latency_ms, token_count
+    Call LLM API -> capture raw_output, latency_ms, token_count
         |
   Score with rubrics.py:
     exact_match:    output.strip() == expected.strip()
     fuzzy_match:    token overlap ratio >= threshold
     json_valid:     json.loads(output) succeeds
     length_check:   len(output) within [min, max]
-    llm_as_judge:   send (question, answer, criteria)
-                    to judge model -> score 1-5 + reasoning
+    llm_as_judge:   send (question, answer, criteria) to judge LLM
+                    -> score 1-5 + reasoning
     safety:         check for harmful content patterns
         |
   Aggregate per rubric:
-    pass_rate = passed / total
-    avg_score = mean(scores)
+    pass_rate = passed_count / total_count
+    avg_score = mean(scores where applicable)
     failures  = cases where any rubric failed
         |
-  Output:
-    Console: summary table
-    datasets/sample_outputs.txt: raw outputs
-    Structured report: per-case breakdown
+  Output report + raw responses saved
 ```
 
 ---
 
 ## Key Design Decisions
 
-| Decision | Reason |
-|---|---|
-| JSONL test case format | Streaming-friendly; can add cases without parsing entire file |
-| Rubric separation from runner | Rubrics can be updated without changing evaluation logic |
-| LLM-as-judge for open-ended | Human-equivalent scoring for answers with no single correct answer |
-| Latency + token tracking | Eval is not just about accuracy; cost and speed matter for production LLMs |
-| CI integration (GitHub Actions) | Eval suite runs on every PR to catch model regressions automatically |
+| Decision                       | Reason                                           |
+|--------------------------------|--------------------------------------------------|
+| JSONL format                   | Streaming-friendly; matches OpenAI Evals standard|
+| Rubrics separate from runner   | Rubrics can be updated without touching eval logic|
+| LLM-as-judge for open-ended    | Human-equivalent scoring for no-single-answer Qs |
+| Latency + token count tracking | Eval is not just accuracy; cost and speed matter  |
+| CI integration (GitHub Actions)| Eval suite runs on every PR; catches regressions  |
 
 ---
 
 ## Interview Conclusion
 
-This project addresses a fundamental problem in LLM development: how do you know if a model change made things better or worse? Traditional unit tests fail because LLM outputs are non-deterministic and open-ended. The evaluation framework solves this with a layered scoring approach: cheap automated checks (exact match, JSON validity) catch clear failures instantly, while the LLM-as-judge handles the nuanced cases where a paraphrase of the correct answer should still pass. The JSONL format is a deliberate choice matching the industry standard used by OpenAI Evals, Anthropic's evaluation suite, and the Eleuther AI Harness. The CI integration is what elevates this from a script to a real eval system: every code change triggers the eval suite, and regressions are caught before merge. If I were scaling this, I would add confidence intervals around pass rates (since LLM outputs vary across runs), implement a baseline comparison view (model A vs model B side by side), and add human annotation workflow for disputed cases.
+This framework addresses the fundamental LLM development problem: how do you know if a
+model change made things better or worse? Traditional unit tests fail because LLM outputs
+are non-deterministic and open-ended. The layered scoring approach solves this: cheap
+automated checks (exact match, JSON validity) catch clear failures instantly, while
+LLM-as-judge handles nuanced cases where a paraphrase of the correct answer should still
+pass. The JSONL format matches the industry standard used by OpenAI Evals, Anthropic's
+evaluation suite, and the Eleuther AI Harness. CI integration elevates this from a
+script to a real eval system: every code change triggers the suite and regressions are
+caught before merge. Scaling: add confidence intervals around pass rates, a side-by-side
+model comparison view, and a human annotation workflow for disputed cases.
