@@ -1,5 +1,10 @@
 # ai-llm-evals-lab
 
+> **[System Design](./systemdesign.md)** - Architecture, data flow, and how it works end-to-end
+
+---
+
+
 A lightweight lab for running reproducible LLM evals locally.
 
 ## Features
